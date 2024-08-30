@@ -41,5 +41,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: check dir
-        run: aws s3 
+        run: aws s3 ls 
         
